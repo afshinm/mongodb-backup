@@ -27,8 +27,7 @@ if (typeof cmdValue === 'undefined') {
 }
 
 if (cmdValue == 'start') {
-  //new CronJob(config.cronjob, cronjob, null, true);
-  cronjob()
+  new CronJob(config.cronjob, cronjob, null, true);
 };
 
 function cronjob () {
