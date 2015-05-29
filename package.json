@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-backup",
+  "version": "0.1.0",
+  "description": "MongoDB scheduled backup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afshinm/mongodb-backup.git"
+  },
+  "dependencies": {
+    "aws-sdk": "2.0.x",
+  },
+  "keywords": [
+    "mongodb",
+    "backup",
+    "aws"
+  ],
+  "author": "Afshin Mehrabani <afshin.meh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afshinm/mongodb-backup/issues"
+  },
+  "homepage": "https://github.com/afshinm/mongodb-backup#readme"
+}
