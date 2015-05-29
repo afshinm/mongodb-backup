@@ -24,6 +24,31 @@ Then configure your database using `config.js` file and run following command to
 ./index.js start
 ```
 
+# Config.js
+
+Here you can find the `config.js` options:
+
+1. `database`:  
+   The database name that you want to get backup from  
+
+2. `cronjob`:  
+   Cronjob schedule to run the backup job (standard cronjob format)  
+   **Default:** `* 2 * * * * *`
+
+3. `mongodump`:  
+   Path to `mongodump` binary.  
+   **Default:** `/usr/local/bin/mongodump`
+
+4. `aws.bucketName`:  
+   S3 bucket name that you want to transfer backup files to.
+
+5. `aws.accessKeyId`:  
+   Your AWS access key
+
+6. `aws.secretAccessKey`:  
+   Your AWS secret key
+
+
 # Credits
 Afshin Mehrabani
 
