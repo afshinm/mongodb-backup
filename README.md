@@ -1,5 +1,7 @@
 # MongoDB Backup
-Scheduled backup solution for MongoDB
+Scheduled backup solution for MongoDB  
+
+<img src='http://i.giphy.com/sIIhZliB2McAo.gif' />
 
 # How it works?
 Well, it's really straighforward. There is a cronjob inside the app that executes `mongodump` command and it creates a tar file of your database (that already defined in `config.json`). 
