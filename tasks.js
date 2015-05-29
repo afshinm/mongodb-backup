@@ -17,7 +17,7 @@ exports.mongodump = function () {
 
   var deferred = Q.defer();
   var args = ['--db', config.database];
-  var mongodump = spawn('/usr/local/bin/mongodump', args);
+  var mongodump = spawn(config.mongodump, args);
 
   mongodump.stdout.on('data', function (data) {
     utils.log('debug', data.toString());
